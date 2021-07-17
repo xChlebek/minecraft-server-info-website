@@ -1,2 +1,2 @@
 # minecraft-server-status-website
-Idk it's only test
+Website, that shows **Minecraft server status, online players** and more in the feature!

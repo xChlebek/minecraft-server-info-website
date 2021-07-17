@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
 
-    <title>ChlebMC</title>
+    <title>Your server name</title>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
@@ -21,21 +21,21 @@
   </head>
   <body>
     <ul id="nawigacja">
-      <li><a href="index.html" class="przycisk">Strona główna</a></li>
-      <li><a href="https://www.sklepmc.pl/shop/1JhaeJ1u/server/1977" class="przycisk">Sklep</a></li>
+      <li><a href="index.html" class="przycisk">Main page</a></li>
+      <li><a href="https://www.sklepmc.pl/shop/1JhaeJ1u/server/1977" class="przycisk">Shop</a></li>
       <li><a href="https://discord.gg/qDXXJNEZYS" class="przycisk">Discord</a></li>
     </ul>
     <div id="kontener">
 <script src="https://mcapi.us/scripts/minecraft.js"></script>
     <div class="server-status">
-      Status serwera: <span class="server-online"></span>
+      Server status: <span class="server-online"></span>
     </div>
     <script>
-      MinecraftAPI.getServerStatus('chlebmc.pl', {
+      MinecraftAPI.getServerStatus('chlebmc.pl', { // Change chlebmc.pl to your server name
         port: 25565 // optional, only if you need a custom port
       }, function (err, status) {
         if (err) {
-          return document.querySelector('.server-status').innerHTML = 'Status serwera: Offline';
+          return document.querySelector('.server-status').innerHTML = 'Server status: Offline';
         }
 
         // you can change these to your own message!
@@ -43,8 +43,8 @@
       });
     </script>
 	<div class="hero" id="main">
-			<p class="info">Dołącz do <span class="sip" data-ip="chlebmc.pl" data-port="25565">
-			0</span> graczy na <span class="ip">ChlebMC.pl</span></p>
+			<p class="info">Join to <span class="sip" data-ip="chlebmc.pl" data-port="25565">
+			0</span> players on <span class="ip">ChlebMC.pl</span></p> <!-- Change ChlebMC.PL to your server name -->
 		</div>
     </div>
   </body>

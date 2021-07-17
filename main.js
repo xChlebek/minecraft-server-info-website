@@ -21,7 +21,7 @@ $(document).on("click",".ip",()=>{
 	copy.textContent = t;
 	copy.select();
 	document.execCommand("copy");
-	$(".ip").html("<span class='extrapad'>Adres skopiowany!</span>");
+	$(".ip").html("<span class='extrapad'>Adress copied!</span>");
 	setTimeout(function(){
 		$(".ip").html(t);
 		var copy = document.getElementById("ta");
@@ -37,7 +37,7 @@ $(document).ready(()=>{
     if (result.online) {
       $(".sip").html(result.players.now);
     } else {
-      $(".playercount").html("Serwer jest offline!");
+      $(".playercount").html("Server is offline!");
     }
   });
 
@@ -46,7 +46,7 @@ $(document).ready(()=>{
       if (result.online) {
         $(".sip").html(result.players.now);
       } else {
-        $(".playercount").html("Serwer jest offline!");
+        $(".playercount").html("Server is offline!");
       }
     });
   }, 500);

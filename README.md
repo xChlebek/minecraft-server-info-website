@@ -1,2 +1,2 @@
 # minecraft-server-info-website
-Website, that shows **Minecraft server status, online players** and more in the feature.
+Opensource website project, that shows **Minecraft server status, online players** and more in the feature.

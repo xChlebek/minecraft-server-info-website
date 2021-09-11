@@ -2,7 +2,7 @@ body {
     background-color: #121212;
     color: #f5f5f5;
     font-size: 20px;
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
     width: 1000px;
     height: auto;
     margin-left: auto;
@@ -13,7 +13,7 @@ body {
     display: block;
     text-align: center;
     text-decoration: none;
-    background-color: #0078f2;
+    background-color: #532dbb;
     opacity: 0.8;
     padding: 20px;
     border-radius: 20px;
@@ -24,7 +24,7 @@ body {
   
   .przycisk:hover {
     background-color: #ffffff;
-    color: #0078f2;
+    color: #532dbb;
     transition-duration: 1s;
   }
 

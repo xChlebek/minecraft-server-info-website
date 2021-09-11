@@ -9,43 +9,41 @@ body {
     margin-right: auto;
   }
 
-  .przycisk,
-#quiz {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  background-color: #0078f2;
-  opacity: 0.8; /*przezroczystość elementu od 0.0-1*/
-  padding: 20px;
-  border-radius: 20px;
-  color: #ffffff;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-.przycisk:hover,
-#quiz:hover {
-  background-color: #ffffff;
-  color: #0078f2;
-  transition-duration: 1s; /*czas na załadowanie nowych instrukcji stylów*/
-}
+  .przycisk {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0078f2;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .przycisk:hover {
+    background-color: #ffffff;
+    color: #0078f2;
+    transition-duration: 1s;
+  }
 
   #nawigacja {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
     background-color: #2a2a2a;
-    list-style-type: none; /*wyłączenie domyślnych kropek dla każdego elementu listy*/
-    border-radius: 1px; /*zaokrąglenie rogów obramowania*/
-    position: sticky; /*Przyklejamy górną belkę nawigacyjną*/
-    top: 0px; /*odstęp belki nawigacyjnej od górnej krawędzi w momencie przyklejenia*/
-    z-index: 5; /*kolejność wyświetlania elementów*/
+    list-style-type: none;
+    border-radius: 1px;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
     text-align: center;
   }
 
   #nawigacja li {
     padding: 15px;
-    display: inline-block; /*wyświetlamy elementy listy w jednej linii a nie jeden pod drugim*/
+    display: inline-block;
   }
 
   #kontener {
